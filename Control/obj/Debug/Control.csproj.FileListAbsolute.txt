@@ -1,0 +1,10 @@
+C:\Users\USER\source\repos\Asesores_CIR\Control\bin\Debug\Control.dll
+C:\Users\USER\source\repos\Asesores_CIR\Control\bin\Debug\Control.pdb
+C:\Users\USER\source\repos\Asesores_CIR\Control\obj\Debug\Control.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Asesores_CIR\Control\obj\Debug\Control.dll
+C:\Users\USER\source\repos\Asesores_CIR\Control\obj\Debug\Control.pdb
+C:\Users\USER\source\repos\Asesores_CIR\Control\bin\Debug\Modelo.dll
+C:\Users\USER\source\repos\Asesores_CIR\Control\bin\Debug\Modelo.pdb
+C:\Users\USER\source\repos\Asesores_CIR\Control\obj\Debug\Control.csproj.CopyComplete
+C:\Users\USER\source\repos\Asesores_CIR\Control\bin\Debug\estructuras.dll
+C:\Users\USER\source\repos\Asesores_CIR\Control\bin\Debug\estructuras.pdb

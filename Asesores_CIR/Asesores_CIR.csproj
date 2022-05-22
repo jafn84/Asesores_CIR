@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6A8DB16-B286-4C97-AA60-F5C7C51085A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Asesores_CIR</RootNamespace>
+    <AssemblyName>Asesores_CIR</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AltaDeAsesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaDeAsesores.Designer.cs">
+      <DependentUpon>AltaDeAsesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltaDeObjetivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaDeObjetivos.Designer.cs">
+      <DependentUpon>AltaDeObjetivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientesConVentaDeAsesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientesConVentaDeAsesores.Designer.cs">
+      <DependentUpon>ClientesConVentaDeAsesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\FechaParaReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FechaParaReporte.Designer.cs">
+      <DependentUpon>FechaParaReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FechaParaReporteClientesConVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FechaParaReporteClientesConVenta.Designer.cs">
+      <DependentUpon>FechaParaReporteClientesConVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteClientesConVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteClientesConVenta.Designer.cs">
+      <DependentUpon>ReporteClientesConVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\reporteFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\reporteFacturacion.Designer.cs">
+      <DependentUpon>reporteFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentaDeAsesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentaDeAsesores.Designer.cs">
+      <DependentUpon>VentaDeAsesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZonasDeVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZonasDeVenta.Designer.cs">
+      <DependentUpon>ZonasDeVenta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AltaDeAsesores.resx">
+      <DependentUpon>AltaDeAsesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltaDeObjetivos.resx">
+      <DependentUpon>AltaDeObjetivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientesConVentaDeAsesores.resx">
+      <DependentUpon>ClientesConVentaDeAsesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reportes\FechaParaReporte.resx">
+      <DependentUpon>FechaParaReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FechaParaReporteClientesConVenta.resx">
+      <DependentUpon>FechaParaReporteClientesConVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteClientesConVenta.resx">
+      <DependentUpon>ReporteClientesConVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\reporteFacturacion.resx">
+      <DependentUpon>reporteFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentaDeAsesores.resx">
+      <DependentUpon>VentaDeAsesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZonasDeVenta.resx">
+      <DependentUpon>ZonasDeVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Control\Control.csproj">
+      <Project>{17b9cf30-732b-4395-8d81-51e720363959}</Project>
+      <Name>Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\estructuras\estructuras.csproj">
+      <Project>{41b5b75a-862c-4a1a-b4c4-444e77cc3b1b}</Project>
+      <Name>estructuras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{8dec98b5-6501-4494-b52b-9898f0fa1add}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RutinasTel\RutinasTel.csproj">
+      <Project>{cffd607b-d8e8-4237-84df-c3a072493c48}</Project>
+      <Name>RutinasTel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.101.0.4951.4100\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.101.0.4951.4100\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.101.0.4951.4100\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.101.0.4951.4100\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+</Project>

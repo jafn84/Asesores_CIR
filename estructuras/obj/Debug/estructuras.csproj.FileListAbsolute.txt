@@ -1,0 +1,5 @@
+C:\Users\USER\source\repos\Asesores_CIR\estructuras\bin\Debug\estructuras.dll
+C:\Users\USER\source\repos\Asesores_CIR\estructuras\bin\Debug\estructuras.pdb
+C:\Users\USER\source\repos\Asesores_CIR\estructuras\obj\Debug\estructuras.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Asesores_CIR\estructuras\obj\Debug\estructuras.dll
+C:\Users\USER\source\repos\Asesores_CIR\estructuras\obj\Debug\estructuras.pdb
